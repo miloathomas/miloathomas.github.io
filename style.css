@@ -1,0 +1,178 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:16px;
+}
+img,
+iframe {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	
+}
+
+body{
+	background-color:#1d3557   
+}
+header {
+	background-color: #457b9d;
+}
+header, footer {
+	text-align: center
+}
+/* TYPOGRAPHY*/
+h1,h3,
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-size:50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+
+p, b {
+			font-family: 'arial', regular;
+	color: white;
+
+}
+
+
+li {
+			font-family: 'arial', regular; 
+color: white;
+
+
+}
+
+h2 {
+ 		font-family: 'arial', regular;
+	text-transform: uppercase;
+color: white;
+
+	
+
+  font-weight: 400;
+	font-size: 20px;
+}
+h1,h2,p,li {
+	padding-bottom: 1em;
+}
+.item {
+	background-color: lightblue;
+	padding:1%;
+	margin:1%;
+	margin-botttom: 20px;
+	margin-top: 20px;
+	border-radius:10px;
+}
+main {
+	max-width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.item li {
+	margin-left: 25px;
+}
+blockquote {
+	font-style: 'arial', regular;
+}
+nav{
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+background: white;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+nav a:hover {
+	background: orange;
+}
+body {
+
+	background-image: url("rabbit_pattern_opacity.png");
+	background-repeat: repeat-x;
+	background-size: 300px;
+	background-attachment: fixed;
+}
+@media screen and (min-width: 500px) {
+	body {
+		background-color: #3A3B48;
+			font-fmaily: arial;
+}
+	.item {
+		background-color: rgba(102,102,204,0.90);
+	}
+	h2{
+		font-family: 'arial', regular;
+	}
+}
+@media screen and (min-width: 768px){
+	body{
+		
+	background-image: url("rabbit_pattern_opacity.png");
+	background-repeat: repeat;
+	background-size: 300px;
+	background-attachment: fixed;
+	}
+	.item {
+
+	background-color: rgba(24,34,93,1.00);
+}
+footer {
+	color: white;
+	cear: both;
+}
+}
+
+
+/* Form */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.artwork {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+width: 40%;
+}
